@@ -73,6 +73,7 @@ function App(props) {
       setFilter={setFilter}
     />
   ));
+  
   const tasksPl = taskList.length !== 1 ? 'tasks' : 'task';
   const numTasks = taskList.length === 0 ? 'No' : taskList.length; 
   const headingText = `${numTasks} ${tasksPl} remaining`;
